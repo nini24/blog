@@ -9,11 +9,22 @@ const Bloglist = () => {
 
     console.log(data)
     return(
-        <div className="mt-12 font-['Gilroy']">
+        <div className="mt-12 font-['Gilroy'] grid grid-cols-3 w-4/6 mx-auto gap-8">
         {
             info.map(inf => (
                 <div>
                     <img src={inf.imgurl} />
+                    <p className=" font-bold text-base mr-4 mt-3 mb-2 text-left" >{inf.name}</p>
+                    <p className="text-left font-medium text-sm text-slate-600 mb-4 ">{inf.description}</p>
+                    <p className='text-sm text-left font-semibold underline hover:text-purple-900'>Read full story</p>
+                    <div className='grid grid-cols-3 gap-1 text-xs mt-4 divide-x text-left'>
+                        <div><p>By {inf.author}</p></div>
+                        <div><p className='px-1'>{inf.date}</p></div>
+                        <div><p className='px-1'> {inf.duration}</p></div>
+
+
+                        
+                        </div>
                     
                     </div>
             ))

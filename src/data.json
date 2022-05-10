@@ -3,7 +3,7 @@
 [
     {
         "id":1,
-        "name":"Do Nigerian women really like flowers",
+        "name":"Do Nigerian women really flowers?",
         "description":"I normally pretend to love flowers but what I would appreciate is a bouquet of dollars.",
         "author":"Omo",
         "date":"6th Oct 2021",
@@ -23,7 +23,7 @@
         "id":3,
         "name":"What type of candy is this?",
         "description":"Jolly ranchers is only for the cool. i have never had it but I like the name.",
-        "author":"Omo",
+        "author":"Salim",
         "date":"16th Nov 2021",
         "duration":"5 mins",
         "imgurl":"./images/sweet.png"
