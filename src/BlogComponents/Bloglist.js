@@ -12,7 +12,11 @@ const Bloglist = (props) => {
             <img src={props.imgurl} />
             <p className=" font-bold text-base mr-4 mt-3 mb-2 text-left" >{props.title}</p>
             <p className="text-left font-medium text-sm text-slate-600 mb-4 ">{props.content}</p>
-
+            <div className='grid grid-cols-3 gap-1 text-xs mt-4 divide-x text-left'>
+                        <div><p>By {props.author}</p></div>
+                        <div><p className='px-1'>{props.date}</p></div>
+                        <div><p className='px-1'> {props.duration}</p></div>                     
+                        </div>
 
             </div>
        {/*  {

@@ -55,7 +55,7 @@ const Allposts = () => {
             <div className="mt-12 font-['Gilroy'] grid grid-cols-3 w-4/6 mx-auto gap-8">
             {allPosts.map(eachPost => {
                 return (
-                <Bloglist id={eachPost.id} key={eachPost.id} title={eachPost.title} content={eachPost.content} imgurl={eachPost.imgurl} />
+                <Bloglist id={eachPost.id} key={eachPost.id} title={eachPost.title} content={eachPost.content} imgurl={eachPost.imgurl} author={eachPost.author} date={eachPost.date} duration={eachPost.duration} />
 
                 )
             })}
