@@ -3,8 +3,8 @@
 [
     {
         "id":1,
-        "name":"Do Nigerian women really flowers?",
-        "description":"I normally pretend to love flowers but what I would appreciate is a bouquet of dollars.",
+        "title":"Do Nigerian women really flowers?",
+        "content":"I normally pretend to love flowers but what I would appreciate is a bouquet of dollars.",
         "author":"Omo",
         "date":"6th Oct 2021",
         "duration":"5 mins",
@@ -12,8 +12,8 @@
     },
     {
         "id":2,
-        "name":"Why you should love mangoes",
-        "description":"I heard some people eat mango skin and I am thankful I wasn't born upside down.",
+        "title":"Why you should love mangoes",
+        "content":"I heard some people eat mango skin and I am thankful I wasn't born upside down.",
         "author":"Fums",
         "date":"6th Nov 2021",
         "duration":"2 mins",
@@ -21,8 +21,8 @@
     },
     {
         "id":3,
-        "name":"What type of candy is this?",
-        "description":"Jolly ranchers is only for the cool. i have never had it but I like the name.",
+        "title":"What type of candy is this?",
+        "content":"Jolly ranchers is only for the cool. i have never had it but I like the name.",
         "author":"Salim",
         "date":"16th Nov 2021",
         "duration":"5 mins",

@@ -1,6 +1,7 @@
 import './App.css';
-import Bloglist from './Bloglist';
-import NewBlog from './newBlog';
+import Allposts from './BlogComponents/Allposts';
+import Bloglist from './BlogComponents/Bloglist';
+import NewBlog from './BlogComponents/newBlog';
 
 
 function App() {
@@ -12,14 +13,13 @@ function App() {
        <h2 className="mt-20 text-3xl font-semibold mr-12">Whitney's Space</h2>
          </div>
          <div>
-         <input type='button' value='Add new' className='mt-20 bg-black text-white px-3 py-1 text-sm rounded-sm hover:bg-slate-900' />
          </div>
        </div>
 
      </nav>
      <section>
-       <Bloglist />
-       <NewBlog />
+      {/*  <Bloglist /> */}
+      <Allposts />
      </section>
       
     </div>
